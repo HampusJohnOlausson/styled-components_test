@@ -1,6 +1,8 @@
 import Header from './components/Header';
 import { Container } from './components/styles/container.styled'
 import { ThemeProvider } from 'styled-components'
+import GlobalStyles from './components/styles/Global';
+
 
 const theme = {
   colors: {
@@ -10,12 +12,11 @@ const theme = {
   },
 }
 
-
-
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <>
+      <GlobalStyles/>
     ¨   <Header/>
         <Container >
         <h1>Hello</h1>
