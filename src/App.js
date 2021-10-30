@@ -1,10 +1,10 @@
-
+import { Container } from './components/styles/container.styled'
 
 function App() {
   return (
-    <div >
-      <h1>Hekll</h1>
-    </div>
+    <Container >
+      <h1>Hello</h1>
+    </Container>
   );
 }
 
